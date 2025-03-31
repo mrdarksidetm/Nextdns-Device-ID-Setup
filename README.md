@@ -113,4 +113,21 @@ sh -c 'sh -c "$(curl -sL https://nextdns.io/install)"'
 The official Documentation is here ![Linux Documentation](https://img.shields.io/badge/Linux-Documentation?style=for-the-badge&logo=linux&logoColor=yellow&logoSize=4&label=Official_Documentation&labelColor=black&color=yellow&link=https%3A%2F%2Fgithub.com%2Fnextdns%2Fnextdns%2Fwiki)
 
 <br>
+
 ### I hope this was helpful to you. Please don't forget to give this repository a ⭐
+
+<br>
+
+Did you think it got over. No... No...
+
+<br>
+
+# Settings you should enable and forget
+
+Click on the button below to be redirected to that page
+
+<p align="center">
+  <a href="https://github.com/mrdarksidetm/Nextdns-Device-ID-Setup/blob/288d1f0f37516908df08f7adc9732c0cbe63395e/Settings%20Enable%20and%20forget.md">
+    <img src="https://img.icons8.com/ios-filled/200/228BE6/button2.png" alt="Button" width="200">
+  </a>
+</p>
