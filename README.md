@@ -1,7 +1,41 @@
+<h1 align="center">
+ 
+<a href="https://github.com/mrdarksidetm/Nextdns-Device-ID-Setup"><img src=".github/assests/nextdnsio-icon.svg" width="100"></a>
+<br>
+NextDNS Device Identifier
+</h1>
 
-![Static Badge](https://img.shields.io/badge/Android-Platform?style=for-the-badge&logo=android&logoColor=%233DDC84&label=Platform&labelColor=black&color=dark%20green&link=https%3A%2F%2Fwww.android.com%2F) ![Static Badge](https://img.shields.io/badge/Windows-Platform?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODc1IDQ4NzUiPjxwYXRoIGZpbGw9IiMwMDc4ZDQiIGQ9Ik0wIDBoMjMxMXYyMzEwSDB6bTI1NjQgMGgyMzExdjIzMTBIMjU2NHpNMCAyNTY0aDIzMTF2MjMxMUgwem0yNTY0IDBoMjMxMXYyMzExSDI1NjQiLz48L3N2Zz4%3D&logoColor=blue&logoSize=1&label=Platform&labelColor=black&color=blue&link=https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fwindows%2F) ![Static Badge](https://img.shields.io/badge/Apple-Black?style=for-the-badge&logo=apple&logoColor=%23ffffff&label=Platform&labelColor=black&color=white&link=https%3A%2F%2Fwww.apple.com%2F)
- ![GitHub watchers](https://img.shields.io/github/watchers/mrdarksidetm/Nextdns-Device-ID-Setup?style=flat-square&logo=%3Csvg%20role%3D%22img%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EGitHub%3C%2Ftitle%3E%3Cpath%20d%3D%22M12%20.297c-6.63%200-12%205.373-12%2012%200%205.303%203.438%209.8%208.205%2011.385.6.113.82-.258.82-.577%200-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422%2018.07%203.633%2017.7%203.633%2017.7c-1.087-.744.084-.729.084-.729%201.205.084%201.838%201.236%201.838%201.236%201.07%201.835%202.809%201.305%203.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93%200-1.31.465-2.38%201.235-3.22-.135-.303-.54-1.523.105-3.176%200%200%201.005-.322%203.3%201.23.96-.267%201.98-.399%203-.405%201.02.006%202.04.138%203%20.405%202.28-1.552%203.285-1.23%203.285-1.23.645%201.653.24%202.873.12%203.176.765.84%201.23%201.91%201.23%203.22%200%204.61-2.805%205.625-5.475%205.92.42.36.81%201.096.81%202.22%200%201.606-.015%202.896-.015%203.286%200%20.315.21.69.825.57C20.565%2022.092%2024%2017.592%2024%2012.297c0-6.627-5.373-12-12-12%22%2F%3E%3C%2Fsvg%3E&logoColor=White&label=Github%20Watchers&color=yellow) 
+<div align="center">
+This is only tutorial you need to make those unidentified devices became visible and also you can add custom names to them
+ 
+</div>
+<br>
+<h2 align="left">
+ Project related benchmarks
+</h2>
+<div align="left">
+ 
+ ![License](https://img.shields.io/badge/CC4.0-License?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI%2FPg0KPCEtLSBVcGxvYWRlZCB0bzogU1ZHIFJlcG8sIHd3dy5zdmdyZXBvLmNvbSwgR2VuZXJhdG9yOiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4NCjxzdmcgZmlsbD0iIzAwMDAwMCIgaGVpZ2h0PSI4MDBweCIgd2lkdGg9IjgwMHB4IiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiANCgkgdmlld0JveD0iMCAwIDMwNS40MDYgMzA1LjQwNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI%2BDQo8Zz4NCgk8Zz4NCgkJPGc%2BDQoJCQk8cGF0aCBkPSJNNzcuMjAyLDEyNy44ODhjMCw0Ljk3MSw0LjAyOSw5LDksOWgxMzAuNTc1YzQuOTcxLDAsOS00LjAyOSw5LTlzLTQuMDI5LTktOS05SDg2LjIwMg0KCQkJCUM4MS4yMzEsMTE4Ljg4OCw3Ny4yMDIsMTIyLjkxNyw3Ny4yMDIsMTI3Ljg4OHoiLz4NCgkJCTxwYXRoIGQ9Ik04Ni4yMDIsMTY4LjUzOGgxMzAuNTc1YzQuOTcxLDAsOS00LjAyOSw5LTljMC00Ljk3MS00LjAyOS05LTktOUg4Ni4yMDJjLTQuOTcxLDAtOSw0LjAyOS05LDkNCgkJCQlDNzcuMjAyLDE2NC41MDksODEuMjMxLDE2OC41MzgsODYuMjAyLDE2OC41Mzh6Ii8%2BDQoJCQk8cGF0aCBkPSJNODYuMjAyLDYwLjUzOGg0NC4zNDFjNC45NzEsMCw5LTQuMDI5LDktOWMwLTQuOTcxLTQuMDI5LTktOS05SDg2LjIwMmMtNC45NzEsMC05LDQuMDI5LTksOQ0KCQkJCUM3Ny4yMDIsNTYuNTA5LDgxLjIzMSw2MC41MzgsODYuMjAyLDYwLjUzOHoiLz4NCgkJCTxwYXRoIGQ9Ik0xNDkuNTAzLDI0Mi4zNzRIODYuMjAyYy00Ljk3MSwwLTksNC4wMjktOSw5YzAsNC45NzEsNC4wMjksOSw5LDloNjMuMzAxYzQuOTcxLDAsOS00LjAyOSw5LTkNCgkJCQlTMTU0LjQ3NCwyNDIuMzc0LDE0OS41MDMsMjQyLjM3NHoiLz4NCgkJCTxwYXRoIGQ9Ik0xNDkuNTAzLDIxNC41MTJIODYuMjAyYy00Ljk3MSwwLTksNC4wMjktOSw5YzAsNC45NzEsNC4wMjksOSw5LDloNjMuMzAxYzQuOTcxLDAsOS00LjAyOSw5LTkNCgkJCQlDMTU4LjUwMywyMTguNTQxLDE1NC40NzQsMjE0LjUxMiwxNDkuNTAzLDIxNC41MTJ6Ii8%2BDQoJCQk8cGF0aCBkPSJNMjY3LjA2Nyw3MC42MTNMMTk5LjA5MSwyLjYzNkMxOTcuNDAyLDAuOTQ4LDE5NS4xMTMsMCwxOTIuNzI3LDBINDQuNzAzYy00Ljk3MSwwLTksNC4wMjktOSw5djI4Ny40MDYNCgkJCQljMCw0Ljk3MSw0LjAyOSw5LDksOWgyMTZjNC45NzEsMCw5LTQuMDI5LDktOVY3Ni45NzdDMjY5LjcwMyw3NC41OSwyNjguNzU1LDcyLjMwMSwyNjcuMDY3LDcwLjYxM3ogTTE5OS43MjcsMjguNzI4DQoJCQkJbDQxLjI0OSw0MS4yNDloLTQxLjI0OVYyOC43Mjh6IE0yNTEuNzAzLDI4Ny40MDZoLTE5OFYxOGgxMjguMDIzdjYwLjk3N2MwLDQuOTcxLDQuMDI5LDksOSw5aDYwLjk3N1YyODcuNDA2eiIvPg0KCQkJPHBhdGggZD0iTTE5OS45NzYsMjA4LjUxMmMtMTYuMDc4LDAtMjkuMTU4LDEzLjA4MS0yOS4xNTgsMjkuMTU5czEzLjA4LDI5LjE1OCwyOS4xNTgsMjkuMTU4czI5LjE1OC0xMy4wOCwyOS4xNTgtMjkuMTU4DQoJCQkJUzIxNi4wNTQsMjA4LjUxMiwxOTkuOTc2LDIwOC41MTJ6IE0xOTkuOTc2LDI0OC44MjljLTYuMTUyLDAtMTEuMTU4LTUuMDA1LTExLjE1OC0xMS4xNThjMC02LjE1Myw1LjAwNi0xMS4xNTksMTEuMTU4LTExLjE1OQ0KCQkJCWM2LjE1MiwwLDExLjE1OCw1LjAwNiwxMS4xNTgsMTEuMTU5QzIxMS4xMzQsMjQzLjgyNCwyMDYuMTI4LDI0OC44MjksMTk5Ljk3NiwyNDguODI5eiIvPg0KCQk8L2c%2BDQoJPC9nPg0KPC9nPg0KPC9zdmc%2B&logoColor=red&label=License&labelColor=light%20brown&color=purple&link=https%3A%2F%2Fgithub.com%2Fmrdarksidetm%2FNextdns-Device-ID-Setup%2Fblob%2F1f3512177f2d5433f1fd9d54bb30d1cebd6c2cf9%2FLICENSE)
+ ![GitHub watchers](https://img.shields.io/github/watchers/mrdarksidetm/Nextdns-Device-ID-Setup?style=for-the-badge)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/mrdarksidetm/Nextdns-Device-ID-Setup?style=for-the-badge)
+ ![GitHub forks](https://img.shields.io/github/forks/mrdarksidetm/Nextdns-Device-ID-Setup?style=for-the-badge)
 
+</div>
+
+<br>
+<h2 align="left">
+Platform Supported ⚙️
+</h2>
+
+<div align="center">
+ 
+![Android](https://img.shields.io/badge/Android-Platform?style=for-the-badge&logo=android&logoColor=%233DDC84&label=Platform&labelColor=black&color=dark%20green&link=https%3A%2F%2Fwww.android.com%2F) 
+![Windows](https://img.shields.io/badge/Windows-Platform?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODc1IDQ4NzUiPjxwYXRoIGZpbGw9IiMwMDc4ZDQiIGQ9Ik0wIDBoMjMxMXYyMzEwSDB6bTI1NjQgMGgyMzExdjIzMTBIMjU2NHpNMCAyNTY0aDIzMTF2MjMxMUgwem0yNTY0IDBoMjMxMXYyMzExSDI1NjQiLz48L3N2Zz4%3D&logoColor=blue&logoSize=1&label=Platform&labelColor=black&color=blue&link=https%3A%2F%2Fwww.microsoft.com%2Fen-in%2Fwindows%2F) 
+![Apple](https://img.shields.io/badge/Apple-Black?style=for-the-badge&logo=apple&logoColor=%23ffffff&label=Platform&labelColor=black&color=white&link=https%3A%2F%2Fwww.apple.com%2F)
+![Browser](https://img.shields.io/badge/Every_Browser-Platform?style=for-the-badge&logo=googlechrome&label=Browser&labelColor=black&color=blue)
+![Linux](https://img.shields.io/badge/Linux-Platform?style=for-the-badge&logo=linux&label=Platform&labelColor=black&color=yellow)
+
+</div>
 
 
 # Nextdns-Device-ID-Setup
