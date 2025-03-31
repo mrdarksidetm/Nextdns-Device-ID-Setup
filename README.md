@@ -127,7 +127,7 @@ Did you think it got over. No... No...
 Click on the button below to be redirected to that page
 
 <p align="center">
-  <a href="https://github.com/mrdarksidetm/Nextdns-Device-ID-Setup/blob/288d1f0f37516908df08f7adc9732c0cbe63395e/Settings%20Enable%20and%20forget.md">
+  <a href=https://github.com/mrdarksidetm/Nextdns-Device-ID-Setup/blob/main/Enable_and_forget.md">
     <img src="https://img.icons8.com/ios-filled/200/228BE6/button2.png" alt="Button" width="200">
   </a>
 </p>
