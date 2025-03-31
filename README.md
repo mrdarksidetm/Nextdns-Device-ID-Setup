@@ -52,11 +52,6 @@ Platform Supported ⚙️
 
 <br>
 
-<h2 style="display: flex; align-items: baseline;">
-  <img src="" width="40" alt="Android Icon" style="margin-right: 10px; vertical-align: text-bottom;">
-  <a href="https://github.com/mrdarksidetm/Nextdns-Device-ID-Setup/tree/main?tab=readme-ov-file#for-android-version---9"> Your Text Here </a>
-</h2>
- 
 ## ![Android](https://img.icons8.com/fluency/48/android-os.png) For Android (Version - +9) 
 > [!IMPORTANT]
 > Android version 9 and before doesn't support `Private DNS Setting` and that's why those version cannot be configured by this. And Android usese `TLS` protocol  
