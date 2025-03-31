@@ -38,5 +38,38 @@ Platform Supported ⚙️
 </div>
 
 
-# Nextdns-Device-ID-Setup
-Instead of "Unnamed devices" filled in your Dashboard you can make those devices recognizable
+# Prerequisites 📄
+1. **You need a [Nextdns Account](https://my.nextdns.io/)**
+2. If you're business you should definetly pay 💰 but for personal users 30,000 queries is sufficient
+3. You will receive all the things on the main `Dashboard` of NextDNS website
+   - You make get a `ID` like this - `abc23`. This is your main and many ways the only way to connect so keep it safe.
+   - But it can found on the dashboard everytime.
+5. When you will this `abc23` like your own `ID`. You will also see steps like DOH & DOT
+6. Now from here we will start the process
+
+> [!NOTE]
+> In my testing and using it for a while, I have noticied that you will run to those 30,000 in 5 people at max per month
+> 
+<br>
+
+## For Android (Version - +9)
+> [!IMPORTANT]
+> Android version 9 and before doesn't support `Private DNS Setting` and that's why those version cannot be configured by this. And Android usese `TLS` protocol
+/br
+1. Copy the `TLS Protocol` Section from your dashboard
+2. Go to `Private DNS` in your settings (or search for it)
+3. Paste the command in the `Custom Section`
+   - Eg. `abc23.dns.nextdns.io`
+4. Just add the device name like `Oppo-abc23.dns.nextdns.io`
+   - Prepend the name to the provided domain (the name should only contain a-z, A-Z, 0-9 and -). Use -- for spaces.
+   - For "John Router", you would use John--Router-abc23.dns.nextdns.io as your DNS-over-TLS endpoint.
+
+<br>
+
+## For Windows (Installer Edition) - Recommended 🌟
+> [!TIP]
+> Just download the installer from the given link below. And be happy without aany errors
+/br
+1. Download the [installer](https://nextdns.io/download/windows/stable) here.
+2. After installing, right-click on NextDNS icon in the Systray then open the Settings. Set `abc23` as Configuration ID.
+3. Right-click on NextDNS icon in the Systray, then click on Enable.
