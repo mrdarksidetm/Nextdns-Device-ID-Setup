@@ -42,20 +42,24 @@ Platform Supported ⚙️
 1. **You need a [Nextdns Account](https://my.nextdns.io/)**
 2. If you're business you should definetly pay 💰 but for personal users 30,000 queries is sufficient
 3. You will receive all the things on the main `Dashboard` of NextDNS website
-   - You make get a `ID` like this - `abc23`. This is your main and many ways the only way to connect so keep it safe.
+     - You make get a `ID` like this - `abc23`. This is your main and many ways the only way to connect so keep it safe.
    - But it can found on the dashboard everytime.
 5. When you will this `abc23` like your own `ID`. You will also see steps like DOH & DOT
 6. Now from here we will start the process
 
 > [!NOTE]
 > In my testing and using it for a while, I have noticied that you will run to those 30,000 in 5 people at max per month
-> 
+
 <br>
 
-## For Android (Version - +9)
+<h2 style="display: flex; align-items: baseline;">
+  <img src="" width="40" alt="Android Icon" style="margin-right: 10px; vertical-align: text-bottom;">
+  <a href="https://github.com/mrdarksidetm/Nextdns-Device-ID-Setup/tree/main?tab=readme-ov-file#for-android-version---9"> Your Text Here </a>
+</h2>
+ 
+## ![Android](https://img.icons8.com/fluency/48/android-os.png) For Android (Version - +9) 
 > [!IMPORTANT]
-> Android version 9 and before doesn't support `Private DNS Setting` and that's why those version cannot be configured by this. And Android usese `TLS` protocol
-/br
+> Android version 9 and before doesn't support `Private DNS Setting` and that's why those version cannot be configured by this. And Android usese `TLS` protocol  
 1. Copy the `TLS Protocol` Section from your dashboard
 2. Go to `Private DNS` in your settings (or search for it)
 3. Paste the command in the `Custom Section`
@@ -66,10 +70,52 @@ Platform Supported ⚙️
 
 <br>
 
-## For Windows (Installer Edition) - Recommended 🌟
+## ![Windows](https://img.icons8.com/color/48/windows-11.png) For Windows (Installer Edition) - Recommended 
 > [!TIP]
 > Just download the installer from the given link below. And be happy without aany errors
 /br
 1. Download the [installer](https://nextdns.io/download/windows/stable) here.
 2. After installing, right-click on NextDNS icon in the Systray then open the Settings. Set `abc23` as Configuration ID.
 3. Right-click on NextDNS icon in the Systray, then click on Enable.
+
+<br>
+
+## ![Apple](https://img.icons8.com/ios-filled/50/FFFFFF/mac-os.png) For Apple Devices 
+> [!TIP]
+> There are two methods to use NextDNS in Apple devices.
+
+- Download the [NextDNS](https://apps.apple.com/us/app/nextdns/id1463342498) official app  
+Or  
+- Download the [Configuration File](https://apple.nextdns.io/) from their website
+
+<br>
+
+## ![Browser](https://img.icons8.com/ios/50/FFFFFF/internet--v1.png) For Browsers 
+> [!TIP]
+> This works on every browser from Safari, Google Chrome, Firefox, Vivaldi, Zen, etc  
+
+1. Copy the `DNS-over-HTTPS` protocol from your NextDNS dashboard
+2. Navigate to your browser settings
+3. Search for `DNS-over-Https` or `Use secure DNS`
+     - Click on the option of `Add another Provider`
+4. Add your `DNS-over-HTTPS` - "https://dns.nextdns.io/abc23" (like link)
+5. To make it Recognisable on the for you in the logs section of NextDNS just add a slash with a name
+
+     - Append the name to the provided URL (the name should be URL encoded).
+     - For "John's Firefox", you would use "https://dns.nextdns.io/abc23/John's%20Firefox" as your DNS-over-HTTPS endpoint.
+       - The `%20` will add a space in the output or in the Logs
+
+<br>
+
+## ![Linux](https://img.icons8.com/ios-filled/50/FFFFFF/linux.png) For Linux 
+> [!NOTE]
+> The linux is very complex and since Linux has so many distribution I just don't have any idea which is to mention here
+
+But hey I can only Recommend you to download using CLI - 
+```
+sh -c 'sh -c "$(curl -sL https://nextdns.io/install)"'
+```
+The official Documentation is here ![Linux Documentation](https://img.shields.io/badge/Linux-Documentation?style=for-the-badge&logo=linux&logoColor=yellow&logoSize=4&label=Official_Documentation&labelColor=black&color=yellow&link=https%3A%2F%2Fgithub.com%2Fnextdns%2Fnextdns%2Fwiki)
+
+<br>
+### I hope this was helpful to you. Please don't forget to give this repository a ⭐
